@@ -36,7 +36,7 @@ All you know is that the theft _**took place on July 28, 2021**_ and that it too
 cat log.sql | sqlite3 fiftyville.db
 ```
 
-<h1 align="center">Mystery Solution</h1>
+<h1 align="center">Solution</h1>
 
 1. Get Crime log of 28th of July
 
