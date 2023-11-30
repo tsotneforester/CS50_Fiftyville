@@ -77,9 +77,7 @@ For Vite Projects
 npm install
 ```
 
-2. Run Vite App
-
-### Installation & Usage
+Get Crime log
 
 ```sql
 SELECT description
@@ -89,12 +87,27 @@ WHERE  month = 7
        AND street = 'Humphrey Street';
 ```
 
-```sql
+witness interviews
 
+```sql
+SELECT transcript
+FROM   interviews
+WHERE  month = 7
+       AND day = 28
+       AND transcript LIKE "%bakery%";
 ```
 
-```sql
+ID - ATM Withdraval
 
+```sql
+SELECT person_id
+FROM   bank_accounts
+WHERE  account_number IN (SELECT account_number
+                          FROM   atm_transactions
+                          WHERE  month = 7
+                                 AND day = 28
+                                 AND atm_location LIKE "%leggett%"
+                                 AND transaction_type = "withdraw");
 ```
 
 ```sql
