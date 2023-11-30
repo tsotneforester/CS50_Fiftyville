@@ -11,8 +11,8 @@ The CS50 Duck has been stolen! The town of Fiftyville has called upon you to sol
 
 ## Getting Started
 
-- Who the thief is - ![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-f4cf0c "image")
-- What city the thief escaped to, and
+- ![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-f4cf0c "image")
+- ![city](https://img.shields.io/badge/-What%20city%20the%20thief%20escaped%20to-3e54a3 "image")
 - Who the thief’s accomplice is who helped them escape
   <br/>
   ![html](https://img.shields.io/badge/-HTML-6abecd "image")
