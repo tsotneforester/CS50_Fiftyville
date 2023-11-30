@@ -2,7 +2,6 @@
 <div align="center">
  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/287015154-790164b9-0862-4a1b-a585-1671370be1dc.png" alt="logo">
  <br/>
- ![342](https://github.com/tsotneforester/CS50_Fiftyville/assets/79293287/790164b9-0862-4a1b-a585-1671370be1dc)
 
 </div>
 
