@@ -49,13 +49,19 @@ SELECT title
 2. In 2.sql, write a SQL query to determine the birth year of Emma Stone. (1 column and 1 row.)
 
 ```sql
-
+SELECT birth
+  FROM people
+WHERE name = "Emma Stone"
+LIMIT 10
 ```
 
 3. Get Crime log of 28th of July (1 column and 88,918 rows.)
 
 ```sql
-
+   SELECT title
+     FROM movies
+    WHERE year >= 2018
+ ORDER BY title
 ```
 
 4. Get Crime log of 28th of July (1 column and 1 row.)
