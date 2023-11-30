@@ -1,5 +1,3 @@
-
-
 <h1 align="center">A Mystery in Fiftyville</h1>
 <div align="center">
  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/286924597-7b39d1e2-0ada-4656-9a3d-4ff453fb805a.png" alt="logo">
@@ -28,20 +26,19 @@ All you know is that the theft _**took place on July 28, 2021**_ and that it too
 </p>
 
 ### Installation & Usage
+
 - Set up SQLite Environment
 - Download <a href="https://cdn.cs50.net/2022/fall/psets/7/fiftyville.zip">files</a>
 - write queries in .sql file
 - run query in terminal
+
 ```sh
 cat log.sql | sqlite3 fiftyville.db
 ```
 
-
 <h1 align="center">Mystery Solution</h1>
 
-1. In REACT folder install NPM package
-
-Get Crime log
+1. Get Crime log of 28th of July
 
 ```sql
 SELECT
@@ -54,7 +51,7 @@ WHERE
   AND street = 'Humphrey Street';
 ```
 
-witness interviews
+2. Get witnesses interviews where `bakery` keyword presents
 
 ```sql
 SELECT
