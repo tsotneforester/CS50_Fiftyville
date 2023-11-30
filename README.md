@@ -3,12 +3,18 @@
 <br/> <br/>
 
 </div>
-Here is
+
+Here is some default code of _** ....sql **_ file. To execute query
+
+```sh
+cat log.sql | sqlite3 fiftyville.db
+```
 
 ```sql
 --.once schema.txt
 --.schema
--- cat log.sql | sqlite3 database
+
+
    SELECT *
      FROM students
     WHERE head LIKE "%Snape%"
