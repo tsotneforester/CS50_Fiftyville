@@ -2,8 +2,8 @@
 
 <div align="center">
  ![duck](https://github.com/tsotneforester/CS50_Fiftyville/assets/79293287/7b39d1e2-0ada-4656-9a3d-4ff453fb805a)
-
- <img src="https://user-images.githubusercontent.com/79293287/7b39d1e2-0ada-4656-9a3d-4ff453fb805a.png" alt="logo"><br/>
+ <img src="https://user-images.githubusercontent.com/79293287/7b39d1e2-0ada-4656-9a3d-4ff453fb805a.png" alt="logo">
+ <br/>
 <h3 align="center">Javascript Instances</h3>
   <div align="center">
 <a href="https://github.com/tsotneforester/Javascript/issues">🛠Submit Issue</a>
