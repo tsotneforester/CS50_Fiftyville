@@ -3,13 +3,9 @@
 <div align="center">
  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/286924597-7b39d1e2-0ada-4656-9a3d-4ff453fb805a.png" alt="logo">
  <br/>
-<h3 align="center">A Mystery in Fiftyville</h3>
-
-<br/>
-
+ <h3 align="center">A Mystery in Fiftyville</h3>
+ <br/>
 </div>
-
-# About The Project
 
 <h1 align="center"> About The Project </h1>
 
