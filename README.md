@@ -17,11 +17,7 @@ The CS50 Duck has been stolen! The town of Fiftyville has called upon you to sol
 ![city](https://img.shields.io/badge/-What%20city%20the%20thief%20escaped%20to-3e54a3 "image")<br/>
 ![accomplice](https://img.shields.io/badge/-Who%20the%20thief’s%20accomplice%20is-FF0000 "image")<br/>
 
-  <br/>
-  ![html](https://img.shields.io/badge/-HTML-6abecd "image")
-  ![css](https://img.shields.io/badge/-CSS-3e54a3 "image")
-
-![api](https://img.shields.io/badge/-API-aad742 "image")
+<br/>
 
 All you know is that the theft _**took place on July 28, 2021**_ and that it took place on _**Humphrey Street**_.
 
