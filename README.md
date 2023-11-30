@@ -110,22 +110,210 @@ WHERE  account_number IN (SELECT account_number
                                  AND transaction_type = "withdraw");
 ```
 
-```sql
+Phone Calls
 
+```sql
+SELECT id
+FROM   phone_calls
+WHERE  month = 7
+       AND day = 28
+       AND duration < 60;
 ```
 
-```sql
+Number Plates
 
+```sql
+SELECT license_plate
+FROM   bakery_security_logs
+WHERE  month = 7
+       AND day = 28
+       AND hour = 10
+       AND minute < 25
+       AND activity = "exit";
 ```
 
-```sql
+Earliest Flight (36)
 
+```sql
+SELECT id
+FROM   flights
+WHERE  month = 7
+       AND day = 29
+       AND origin_airport_id IN (SELECT id
+                                 FROM   airports
+                                 WHERE  city = "fiftyville")
+ORDER  BY hour
+LIMIT  1;
 ```
 
-```sql
+Thief ESCAPED TO:
 
+```sql
+SELECT city
+FROM   airports
+WHERE  id IN (SELECT destination_airport_id
+              FROM   flights
+              WHERE  month = 7
+                     AND day = 29
+                     AND origin_airport_id IN (SELECT id
+                                               FROM   airports
+                                               WHERE  city = "fiftyville")
+              ORDER  BY hour
+              LIMIT  1);
 ```
 
-```sql
+Passport Numbers from flight
 
+```sql
+SELECT passport_number
+FROM   passengers
+WHERE  flight_id IN (SELECT id
+                     FROM   flights
+                     WHERE  month = 7
+                            AND day = 29
+                            AND origin_airport_id IN (SELECT id
+                                                      FROM   airports
+                                                      WHERE  city = "fiftyville"
+                                                     )
+                     ORDER  BY hour
+                     LIMIT  1);
+```
+
+THIEF is:
+
+```sql
+SELECT name
+FROM   people
+WHERE  license_plate IN (SELECT license_plate
+                         FROM   bakery_security_logs
+                         WHERE  month = 7
+                                AND day = 28
+                                AND hour = 10
+                                AND minute < 25
+                                AND activity = "exit")
+       AND passport_number IN (SELECT passport_number
+                               FROM   passengers
+                               WHERE  flight_id = 36 -- type dynamically
+                              )
+       AND id IN (SELECT person_id
+                  FROM   bank_accounts
+                  WHERE  account_number IN (SELECT account_number
+                                            FROM   atm_transactions
+                                            WHERE  month = 7
+                                                   AND day = 28
+                                                   AND atm_location LIKE
+                                                       "%leggett%"
+                                                   AND transaction_type =
+                                                       "withdraw"))
+       AND phone_number IN (SELECT caller
+                            FROM   phone_calls
+                            WHERE  month = 7
+                                   AND day = 28
+                                   AND duration < 60);
+```
+
+ACCOMPLICE Phone Number
+
+```sql
+SELECT receiver
+FROM   phone_calls
+WHERE  month = 7
+       AND day = 28
+       AND duration < 60
+       AND caller IN (SELECT phone_number
+                      FROM   people
+                      WHERE  license_plate IN (SELECT license_plate
+                                               FROM   bakery_security_logs
+                                               WHERE  month = 7
+                                                      AND day = 28
+                                                      AND hour = 10
+                                                      AND minute < 25
+                                                      AND activity = "exit")
+                             AND passport_number IN (SELECT passport_number
+                                                     FROM   passengers
+                                                     WHERE  flight_id = 36
+                                                    -- type dynamically
+                                                    )
+                             AND id IN (SELECT person_id
+                                        FROM   bank_accounts
+                                        WHERE  account_number IN
+                                               (SELECT account_number
+                                                FROM   atm_transactions
+                                                WHERE  month = 7
+                                                       AND day = 28
+                                                       AND atm_location
+                                                           LIKE
+                                                           "%leggett%"
+                                                       AND transaction_type =
+                                                           "withdraw"))
+                             AND phone_number IN (SELECT caller
+                                                  FROM   phone_calls
+                                                  WHERE  month = 7
+                                                         AND day = 28
+                                                         AND duration < 60));
+```
+
+ACCOMPLICE is:
+
+```sql
+SELECT NAME
+FROM   people
+WHERE  phone_number IN (SELECT receiver
+                        FROM   phone_calls
+                        WHERE  month = 7
+                               AND day = 28
+                               AND duration < 60
+                               AND caller IN (SELECT phone_number
+                                              FROM   people
+                                              WHERE  license_plate IN (SELECT
+                                                     license_plate
+                                                                       FROM
+                                                     bakery_security_logs
+                                                                       WHERE
+                                                     month = 7
+                                                     AND day = 28
+                                                     AND hour = 10
+                                                     AND minute < 25
+                                                     AND activity = "exit")
+                                                     AND passport_number IN (
+                                                         SELECT
+                                                         passport_number
+                                                         FROM
+                                                         passengers
+                                                         WHERE
+                                                         flight_id = 36
+                                                                            -- type dynamically
+                                                                            )
+                                                     AND id IN (SELECT person_id
+                                                                FROM
+                                                         bank_accounts
+                                                                WHERE
+                                                         account_number
+                                                         IN
+                                                         (SELECT
+                                                               account_number
+                                                                        FROM
+                                                               atm_transactions
+                                                                        WHERE
+                                                         month =
+                                                                       7
+                                                         AND day
+                                                                       = 28
+                                                         AND atm_location
+                                                             LIKE
+                                                         "%leggett%"
+                                                         AND
+                                                         transaction_type =
+                                                         "withdraw"))
+                                                     AND phone_number IN
+                                                         (SELECT caller
+                                                          FROM
+                                                         phone_calls
+                                                                          WHERE
+                                                         month =
+                                                         7
+                                                         AND
+                                                         day = 28
+                                                         AND
+                                                         duration < 60)))
 ```
