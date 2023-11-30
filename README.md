@@ -4,7 +4,7 @@
 
 </div>
 
-Here is some default code of _** ....sql **_ file. To execute query
+Here is some default code of _**name.sql**_ file. To execute query
 
 ```sh
 cat log.sql | sqlite3 database.db
