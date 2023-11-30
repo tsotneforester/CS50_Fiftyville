@@ -79,6 +79,8 @@ npm install
 
 2. Run Vite App
 
+### Installation & Usage
+
 ```sql
 SELECT description
 FROM   crime_scene_reports
@@ -87,8 +89,30 @@ WHERE  month = 7
        AND street = 'Humphrey Street';
 ```
 
-<!-- |Project #|CSS+HTML+JS Comentary |README|React| -->
+```sql
 
-## About Me
+```
 
-<!-- https://home.aveek.io/GitHub-Profile-Badges/ -->
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
