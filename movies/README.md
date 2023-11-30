@@ -9,13 +9,9 @@ Provided to you is a file called movies.db, a SQLite database that stores data f
 
 ### Your goal is to identify:
 
-![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-006400 "image")<br/>
-![city](https://img.shields.io/badge/-What%20city%20the%20thief%20escaped%20to-3e54a3 "image")<br/>
-![accomplice](https://img.shields.io/badge/-Who%20the%20thief’s%20accomplice%20is-FF0000 "image")<br/>
+For each of the following problems, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query, though you may nest other queries inside of your query.
 
 <br/>
-
-All you know is that the theft _**took place on July 28, 2021**_ and that it took place on _**Humphrey Street**_.
 
 ### Built With
 
