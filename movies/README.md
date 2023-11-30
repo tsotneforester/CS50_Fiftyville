@@ -28,7 +28,7 @@ All you know is that the theft _**took place on July 28, 2021**_ and that it too
 ### Installation & Usage
 
 - Set up SQLite Environment
-- Download <a href="https://cdn.cs50.net/2022/fall/psets/7/fiftyville.zip">files</a>
+- Download <a href="https://cdn.cs50.net/2022/fall/psets/7/movies.zip">files</a>
 - write queries in .sql file
 - run query in terminal
 
