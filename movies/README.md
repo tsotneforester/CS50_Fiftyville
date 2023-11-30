@@ -1,4 +1,4 @@
-<h1 align="center">A Mystery in Fiftyville</h1>
+<h1 align="center">Movies</h1>
 <div align="center">
  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/286924597-7b39d1e2-0ada-4656-9a3d-4ff453fb805a.png" alt="logo">
  <br/>
@@ -55,7 +55,7 @@ SELECT title
     LIMIT 10
 ```
 
-3. Get Crime log of 28th of July (1 column and 88,918 rows.)
+3. write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order. (1 column and 88,918 rows.)
 
 ```sql
    SELECT title
@@ -64,7 +64,7 @@ SELECT title
  ORDER BY title
 ```
 
-4. Get Crime log of 28th of July (1 column and 1 row.)
+4. write a SQL query to determine the number of movies with an IMDb rating of 10.0 (1 column and 1 row.)
 
 ```sql
    SELECT count(*) as rating
@@ -72,7 +72,7 @@ SELECT title
     WHERE rating = 10.0
 ```
 
-5. Get Crime log of 28th of July (2 columns and 12 rows.)
+5. write a SQL query to list the titles and release years of all Harry Potter movies, in chronological order. (2 columns and 12 rows.)
 
 ```sql
    SELECT title,
@@ -82,7 +82,7 @@ SELECT title
  ORDER BY year
 ```
 
-6. Get Crime log of 28th of July (1 column and 1 row.)
+6. write a SQL query to determine the average rating of all movies released in 2012. (1 column and 1 row.)
 
 ```sql
    SELECT AVG(rating) as average
@@ -94,7 +94,7 @@ SELECT title
           )
 ```
 
-7. Get Crime log of 28th of July (2 columns and 7,085 rows.)
+7. write a SQL query to list all movies released in 2010 and their ratings, in descending order by rating. For movies with the same rating, order them alphabetically by title. (2 columns and 7,085 rows.)
 
 ```sql
    SELECT movies.title,
@@ -107,7 +107,7 @@ SELECT title
           movies.title
 ```
 
-8. Get Crime log of 28th of July (1 column and 4 rows.)
+8. write a SQL query to list the names of all people who starred in Toy Story (1 column and 4 rows.)
 
 ```sql
    SELECT name
@@ -123,7 +123,7 @@ SELECT title
           )
 ```
 
-9. Get Crime log of 28th of July (1 column and 18,946 rows.)
+9. write a SQL query to list the names of all people who starred in a movie released in 2004, ordered by birth year. (1 column and 18,946 rows.)
 
 ```sql
    SELECT name
@@ -140,7 +140,7 @@ SELECT title
  ORDER BY birth
 ```
 
-10. Get Crime log of 28th of July (1 column and 3,392 rows.)
+10. write a SQL query to list the names of all people who have directed a movie that received a rating of at least 9.0. (1 column and 3,392 rows.)
 
 ```sql
    SELECT name
@@ -157,7 +157,7 @@ SELECT title
           )
 ```
 
-11. Get Crime log of 28th of July (1 column and 5 rows.)
+11. write a SQL query to list the titles of the five highest rated movies (in order) that Chadwick Boseman starred in, starting with the highest rated. (1 column and 5 rows.)
 
 ```sql
    SELECT title
@@ -179,7 +179,7 @@ SELECT title
      JOIN movies ON b.movie_id = movies.id;
 ```
 
-12. Get Crime log of 28th of July (1 column and 4 rows.)
+12. write a SQL query to list the titles of all movies in which both Bradley Cooper and Jennifer Lawrence starred (1 column and 4 rows.)
 
 ```sql
    SELECT title
@@ -198,7 +198,7 @@ SELECT title
           )
 ```
 
-13. Get Crime log of 28th of July (1 column and 182 rows.)
+13. write a SQL query to list the names of all people who starred in a movie in which Kevin Bacon also starred. (1 column and 182 rows.)
 
 ```sql
    SELECT name
