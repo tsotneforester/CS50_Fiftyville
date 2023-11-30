@@ -1,11 +1,11 @@
 <h1 align="center">Movies</h1>
 <div align="center">
- <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/286924597-7b39d1e2-0ada-4656-9a3d-4ff453fb805a.png" alt="logo">
+ <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/287017490-e32c4595-87b1-478b-bd43-39bd8536e44a.png" alt="logo">
  <br/>
  
 </div>
 
-Provided to you is a file called movies.db, a SQLite database that stores data from <a href="https://https://www.imdb.com/">IMDb</a> about movies, the people who directed and starred in them, and their ratings. In a terminal window, run sqlite3 movies.db so that you can begin executing queries on the database.
+Provided to you is a file called movies.db, a SQLite database that stores data from <a href="https://www.imdb.com/">IMDb</a> about movies, the people who directed and starred in them, and their ratings. In a terminal window, run sqlite3 movies.db so that you can begin executing queries on the database.
 
 ### Your goal is to identify:
 
