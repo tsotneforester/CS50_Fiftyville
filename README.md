@@ -11,13 +11,13 @@
 
 _**"The root of learning is bitter, but the crown is sweet"**_.... - Ancient Georgian (:bow_and_arrow:ქართული:crossed_swords:) proverb.
 
-After first steps in Web Development (HTML+CSS), it was Javascript, which really drove my nuts, but now thing are getting better as experience growth. On my Js journey, I've come up to many interesting tasks and I am going to share it to you! :partying_face::partying_face::partying_face:
+The CS50 Duck has been stolen! The town of Fiftyville has called upon you to solve the mystery of the stolen duck. Authorities believe that the thief stole the duck and then, shortly afterwards, took a flight out of town with the help of an accomplice. Your goal is to identify:
 
 ## Getting Started
 
-- Project GIF
-- Project Name
-- Main build language  
+- Who the thief is,
+- What city the thief escaped to, and
+- Who the thief’s accomplice is who helped them escape
   ![html](https://img.shields.io/badge/-HTML-6abecd "image")
   ![css](https://img.shields.io/badge/-CSS-3e54a3 "image")
   ![js](https://img.shields.io/badge/-Vanilla%20JS-cf6390 "image")
@@ -29,8 +29,8 @@ After first steps in Web Development (HTML+CSS), it was Javascript, which really
   ![intermediate](https://img.shields.io/badge/%203%20-intermediate-white?labelColor=f1b604 "image")
   ![advanced](https://img.shields.io/badge/%204%20-advanced-white?labelColor=bf4605 "image")
   ![guru](https://img.shields.io/badge/%205%20-guru-white?labelColor=ed2c49 "image")
-- Project Links
-- Summery
+
+  All you know is that the theft took place on July 28, 2021 and that it took place on Humphrey Street.
 
 ### Built With
 
