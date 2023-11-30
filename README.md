@@ -19,3 +19,7 @@ This is some default code of _**name.sql**_ file. To execute query, run this in 
 ```sh
 cat log.sql | sqlite3 database.db
 ```
+
+## Contacts
+
+The main SQLite website is http:/sqlite.org/ with geographically distributed backups at http://www2.sqlite.org/ and http://www3.sqlite.org/.
