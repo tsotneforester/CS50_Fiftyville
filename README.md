@@ -34,7 +34,7 @@ The CS50 Duck has been stolen! The town of Fiftyville has called upon you to sol
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=sql,html,css,sass,styledcomponents,react,codepen,figma,git,ps,vscode" />
+    <img src="https://skills.thijs.gg/icons?i=sqlite" />
   </a>
 </p>
 
