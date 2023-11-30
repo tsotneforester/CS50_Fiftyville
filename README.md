@@ -8,6 +8,7 @@
 </div>
 
 The CS50 Duck has been stolen! The town of Fiftyville has called upon you to solve the mystery of the stolen duck. Authorities believe that the thief stole the duck and then, shortly afterwards, took a flight out of town with the help of an accomplice. Your goal is to identify:
+<br/>
 ![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-f4cf0c "image")<br/>
 ![city](https://img.shields.io/badge/-What%20city%20the%20thief%20escaped%20to-3e54a3 "image")<br/>
 ![accomplice](https://img.shields.io/badge/-Who%20the%20thief’s%20accomplice%20is-FF0000 "image")<br/>
