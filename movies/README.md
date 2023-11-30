@@ -38,7 +38,7 @@ cat log.sql | sqlite3 fiftyville.db
 
 <h1 align="center">Solution</h1>
 
-1. In 1.sql, write a SQL query to list the titles of all movies released in 2008.
+1. In 1.sql, write a SQL query to list the titles of all movies released in 2008. (1 column and 10,050 rows.)
 
 ```sql
 SELECT title
@@ -46,49 +46,73 @@ SELECT title
  WHERE year = 2008
 ```
 
-1. Get Crime log of 28th of July
+2. In 2.sql, write a SQL query to determine the birth year of Emma Stone. (1 column and 1 row.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+3. Get Crime log of 28th of July (1 column and 88,918 rows.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+4. Get Crime log of 28th of July (1 column and 1 row.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+5. Get Crime log of 28th of July (2 columns and 12 rows.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+6. Get Crime log of 28th of July (1 column and 1 row.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+7. Get Crime log of 28th of July (2 columns and 7,085 rows.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+8. Get Crime log of 28th of July (1 column and 4 rows.)
 
 ```sql
 
 ```
 
-1. Get Crime log of 28th of July
+9. Get Crime log of 28th of July (1 column and 18,946 rows.)
+
+```sql
+
+```
+
+10. Get Crime log of 28th of July (1 column and 3,392 rows.)
+
+```sql
+
+```
+
+11. Get Crime log of 28th of July (1 column and 5 rows.)
+
+```sql
+
+```
+
+12. Get Crime log of 28th of July (1 column and 4 rows.)
+
+```sql
+
+```
+
+13. Get Crime log of 28th of July (1 column and 182 rows.)
 
 ```sql
 
