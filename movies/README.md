@@ -5,7 +5,7 @@
  
 </div>
 
-Provided to you is a file called movies.db, a SQLite database that stores data from <a href="https://www.imdb.com/">IMDb</a> about movies, the people who directed and starred in them, and their ratings. In a terminal window, run sqlite3 movies.db so that you can begin executing queries on the database.
+Provided to you is a file called movies.db, a SQLite database that stores data from <a href="https://www.imdb.com/">IMDb</a> about movies, the people who directed and starred in them, and their ratings.
 
 ### Your goal is to identify:
 
@@ -25,11 +25,11 @@ For each of the following problems, you should write a single SQL query that out
 
 - Set up SQLite Environment
 - Download <a href="https://cdn.cs50.net/2022/fall/psets/7/movies.zip">files</a>
-- write queries in .sql file
+- write queries in appropriate n.sql file
 - run query in terminal
 
 ```sh
-cat log.sql | sqlite3 movies.db
+cat n.sql | sqlite3 movies.db
 ```
 
 <h1 align="center">Solution</h1>
