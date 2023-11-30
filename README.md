@@ -20,6 +20,7 @@ This is some default code of _**name.sql**_ file. To execute query, run this in 
 cat log.sql | sqlite3 database.db
 ```
 
-## Contacts
+## Resources
 
-The main SQLite website is http:/sqlite.org/ with geographically distributed backups at http://www2.sqlite.org/ and http://www3.sqlite.org/.
+- [sqlite.org](http:/sqlite.org/)
+- [sql formatter](https://www.scaler.com/topics/sql/sql-formatter/)
