@@ -64,7 +64,7 @@ WHERE
   AND transcript LIKE "%bakery%";
 ```
 
-ID - ATM Withdraval
+3. Get Person IDs as thief withdrew money from ATM on Legget Str.
 
 ```sql
 SELECT
@@ -85,11 +85,11 @@ WHERE
   );
 ```
 
-Phone Calls
+4. As thief called up his accomplice with call duration less then minute, let's get phone numbers, one of which is thief's
 
 ```sql
 SELECT
-  id
+  caller
 FROM
   phone_calls
 WHERE
@@ -98,7 +98,7 @@ WHERE
   AND duration < 60;
 ```
 
-Number Plates
+5. As thief left parking within 10 minutes, let's find out all number plates of appropriate cars
 
 ```sql
 SELECT
@@ -113,7 +113,7 @@ WHERE
   AND activity = "exit";
 ```
 
-Earliest Flight (36)
+6. Get ID of Earliest Flight out of Fiftyville next day of crime (36)
 
 ```sql
 SELECT
@@ -137,7 +137,7 @@ LIMIT
   1;
 ```
 
-Thief ESCAPED TO:
+![city](https://img.shields.io/badge/-What%20city%20the%20thief%20escaped%20to-3e54a3 "image")
 
 ```sql
 SELECT
@@ -168,7 +168,7 @@ WHERE
   );
 ```
 
-Passport Numbers from flight
+7. Get Passport Numbers of N 36 flight passengers
 
 ```sql
 SELECT
@@ -199,7 +199,8 @@ WHERE
   );
 ```
 
-THIEF is:
+As we allready know possible phone numbers, license plate numbers, id-s, passport numbers, filter out `people` table and learn<br/>
+![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-006400 "image")
 
 ```sql
 SELECT
@@ -257,7 +258,7 @@ WHERE
   );
 ```
 
-ACCOMPLICE Phone Number
+8. As we already know who the thief is, let's find out ACCOMPLICE Phone Number, as they talked to each other by phone on crime day
 
 ```sql
  SELECT
@@ -325,7 +326,8 @@ WHERE
   );
 ```
 
-ACCOMPLICE is:
+Find accomplice by phone number <br/>
+![accomplice](https://img.shields.io/badge/-Who%20the%20thief’s%20accomplice%20is-FF0000 "image")
 
 ```sql
 SELECT
