@@ -7,7 +7,7 @@
 Here is some default code of _** ....sql **_ file. To execute query
 
 ```sh
-cat log.sql | sqlite3 fiftyville.db
+cat log.sql | sqlite3 database.db
 ```
 
 ```sql
