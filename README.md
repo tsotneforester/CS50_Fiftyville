@@ -1,4 +1,4 @@
-<a href="https://cdn.cs50.net/2022/fall/psets/7/fiftyville.zip">DB</a>
+
 
 <h1 align="center">A Mystery in Fiftyville</h1>
 <div align="center">
@@ -11,9 +11,7 @@ The CS50 Duck has been stolen! The town of Fiftyville has called upon you to sol
 
 ### Your goal is to identify:
 
-<br/>
-
-![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-f4cf0c "image")<br/>
+![thief](https://img.shields.io/badge/-Who%20the%20thief%20is-006400 "image")<br/>
 ![city](https://img.shields.io/badge/-What%20city%20the%20thief%20escaped%20to-3e54a3 "image")<br/>
 ![accomplice](https://img.shields.io/badge/-Who%20the%20thief’s%20accomplice%20is-FF0000 "image")<br/>
 
@@ -29,17 +27,17 @@ All you know is that the theft _**took place on July 28, 2021**_ and that it too
   </a>
 </p>
 
-### Prerequisites
-
-npm (for React Projects)
-
+### Installation & Usage
+- Set up SQLite Environment
+- Download <a href="https://cdn.cs50.net/2022/fall/psets/7/fiftyville.zip">files</a>
+- write queries in .sql file
+- run query in terminal
 ```sh
-npm install npm@latest -g
+cat log.sql | sqlite3 fiftyville.db
 ```
 
-### Installation & Usage
 
-For React Projects
+<h1 align="center">Mystery Solution</h1>
 
 1. In REACT folder install NPM package
 
