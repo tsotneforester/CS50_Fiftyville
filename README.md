@@ -7,8 +7,6 @@
  
 </div>
 
-_**"The root of learning is bitter, but the crown is sweet"**_.... - Ancient Georgian (:bow_and_arrow:ქართული:crossed_swords:) proverb.
-
 The CS50 Duck has been stolen! The town of Fiftyville has called upon you to solve the mystery of the stolen duck. Authorities believe that the thief stole the duck and then, shortly afterwards, took a flight out of town with the help of an accomplice. Your goal is to identify:
 
 ## Getting Started
@@ -16,17 +14,17 @@ The CS50 Duck has been stolen! The town of Fiftyville has called upon you to sol
 - Who the thief is,
 - What city the thief escaped to, and
 - Who the thief’s accomplice is who helped them escape
-  ![html](https://img.shields.io/badge/-HTML-6abecd "image")
+  <!-- ![html](https://img.shields.io/badge/-HTML-6abecd "image")
   ![css](https://img.shields.io/badge/-CSS-3e54a3 "image")
   ![js](https://img.shields.io/badge/-Vanilla%20JS-cf6390 "image")
   ![react](https://img.shields.io/badge/-React-f4cf0c "image")
   ![api](https://img.shields.io/badge/-API-aad742 "image")
-- Difficulty Level  
+
   ![newbie](https://img.shields.io/badge/%201%20-newbie-white?labelColor=6abecd "image")
   ![junior](https://img.shields.io/badge/%202%20-junior-white?labelColor=aad742 "image")
   ![intermediate](https://img.shields.io/badge/%203%20-intermediate-white?labelColor=f1b604 "image")
   ![advanced](https://img.shields.io/badge/%204%20-advanced-white?labelColor=bf4605 "image")
-  ![guru](https://img.shields.io/badge/%205%20-guru-white?labelColor=ed2c49 "image")
+  ![guru](https://img.shields.io/badge/%205%20-guru-white?labelColor=ed2c49 "image") -->
 
 All you know is that the theft _**took place on July 28, 2021**_ and that it took place on _**Humphrey Street**_.
 
