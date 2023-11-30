@@ -1,7 +1,7 @@
 <h1 align="center">Movies</h1>
 <div align="center">
  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/79293287/287017490-e32c4595-87b1-478b-bd43-39bd8536e44a.png" alt="logo">
- <br/>
+ <br/> <br/>
  
 </div>
 
