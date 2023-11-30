@@ -33,7 +33,7 @@ All you know is that the theft _**took place on July 28, 2021**_ and that it too
 - run query in terminal
 
 ```sh
-cat log.sql | sqlite3 fiftyville.db
+cat log.sql | sqlite3 movies.db
 ```
 
 <h1 align="center">Solution</h1>
