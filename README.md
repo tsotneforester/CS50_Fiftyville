@@ -79,8 +79,12 @@ npm install
 
 2. Run Vite App
 
-```sh
-npm run dev
+```sql
+SELECT description
+FROM   crime_scene_reports
+WHERE  month = 7
+       AND day = 28
+       AND street = 'Humphrey Street';
 ```
 
 <!-- |Project #|CSS+HTML+JS Comentary |README|React| -->
