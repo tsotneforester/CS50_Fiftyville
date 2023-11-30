@@ -42,7 +42,7 @@ SELECT title
  WHERE year = 2008
 ```
 
-2. In 2.sql, write a SQL query to determine the birth year of Emma Stone. (1 column and 1 row.)
+2. In 2.sql, write a SQL query to determine the birth year of Emma Stone. (1988)
 
 ```sql
    SELECT birth
