@@ -30,13 +30,11 @@ The CS50 Duck has been stolen! The town of Fiftyville has called upon you to sol
   ![advanced](https://img.shields.io/badge/%204%20-advanced-white?labelColor=bf4605 "image")
   ![guru](https://img.shields.io/badge/%205%20-guru-white?labelColor=ed2c49 "image")
 
-  All you know is that the theft took place on July 28, 2021 and that it took place on Humphrey Street.
-
 ### Built With
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=js,html,css,sass,styledcomponents,react,codepen,figma,git,ps,vscode" />
+    <img src="https://skills.thijs.gg/icons?i=sql,html,css,sass,styledcomponents,react,codepen,figma,git,ps,vscode" />
   </a>
 </p>
 
