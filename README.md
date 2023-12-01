@@ -14,7 +14,9 @@
     WHERE head LIKE "%Snape%"
 ```
 
-This is some default code of _**name.sql**_ file. To execute query, run this in terminal
+This is some default code of _**name.sql**_ file. To execute query:
+- Set up SQLite Environment
+- run this in terminal
 
 ```sh
 cat log.sql | sqlite3 database.db
