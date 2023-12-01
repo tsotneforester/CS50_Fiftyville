@@ -83,7 +83,7 @@ SELECT title
 ```
 
 ```sql
- -- 2
+-- 2
  SELECT birth
    FROM people
   WHERE name = "Emma Stone"
@@ -91,7 +91,7 @@ SELECT title
 ```
 
 ```sql
-   -- 3
+-- 3
    SELECT title
      FROM movies
     WHERE year >= 2018
@@ -99,15 +99,14 @@ SELECT title
 ```
 
 ```sql
- -- 4
- SELECT count(*) as rating
-   FROM ratings
-  WHERE rating = 10.0
+-- 4
+SELECT count(*) as rating
+  FROM ratings
+ WHERE rating = 10.0
 ```
 
-5.
-
 ```sql
+-- 5
    SELECT title,
           year
      FROM movies
