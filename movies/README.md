@@ -114,9 +114,8 @@ SELECT count(*) as rating
  ORDER BY year
 ```
 
-6.
-
 ```sql
+-- 6
    SELECT AVG(rating) as average
      FROM ratings
     WHERE movie_id IN (
@@ -126,9 +125,8 @@ SELECT count(*) as rating
           )
 ```
 
-7.
-
 ```sql
+-- 7
    SELECT movies.title,
           ratings.rating
      FROM movies,
@@ -139,9 +137,8 @@ SELECT count(*) as rating
           movies.title
 ```
 
-8.
-
 ```sql
+-- 8
    SELECT name
      FROM people
     WHERE id IN (
@@ -155,9 +152,8 @@ SELECT count(*) as rating
           )
 ```
 
-9.
-
 ```sql
+-- 9
    SELECT name
      FROM people
     WHERE id IN (
