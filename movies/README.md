@@ -82,31 +82,27 @@ SELECT title
  WHERE year = 2008
 ```
 
-2.
-
 ```sql
-   -- 2
-   SELECT birth
-     FROM people
-    WHERE name = "Emma Stone"
-    LIMIT 10
+ -- 2
+ SELECT birth
+   FROM people
+  WHERE name = "Emma Stone"
+  LIMIT 10
 ```
 
-3.
-
 ```sql
+   -- 3
    SELECT title
      FROM movies
     WHERE year >= 2018
  ORDER BY title
 ```
 
-4.
-
 ```sql
-   SELECT count(*) as rating
-     FROM ratings
-    WHERE rating = 10.0
+ -- 4
+ SELECT count(*) as rating
+   FROM ratings
+  WHERE rating = 10.0
 ```
 
 5.
