@@ -13,46 +13,46 @@ For each of the following problems, you should write a single SQL query that out
 
 <br/>
 
-1. In **1.sql**, write a SQL query to list the titles of all movies released in 2008.
+1. In **1.sql**, write a SQL query to list the titles of all movies released in 2008. (1 column and 10,050 rows.)
    - Your query should output a table with a single column for the title of each movie.
-2. In 2.sql, write a SQL query to determine the birth year of Emma Stone.
+2. In 2.sql, write a SQL query to determine the birth year of Emma Stone. (1 column and 1 row - 1988)
    - Your query should output a table with a single column and a single row (not counting the header) containing Emma Stone’s birth year.
    - You may assume that there is only one person in the database with the name Emma Stone.
-3. In 3.sql, write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order.
-   Your query should output a table with a single column for the title of each movie.
-   Movies released in 2018 should be included, as should movies with release dates in the future.
-4. In 4.sql, write a SQL query to determine the number of movies with an IMDb rating of 10.0.
-   Your query should output a table with a single column and a single row (not counting the header) containing the number of movies with a 10.0 rating.
-5. In 5.sql, write a SQL query to list the titles and release years of all Harry Potter movies, in chronological order.
-   Your query should output a table with two columns, one for the title of each movie and one for the release year of each movie.
-   You may assume that the title of all Harry Potter movies will begin with the words “Harry Potter”, and that if a movie title begins with the words “Harry Potter”, it is a Harry Potter movie.
-6. In 6.sql, write a SQL query to determine the average rating of all movies released in 2012.
-   Your query should output a table with a single column and a single row (not counting the header) containing the average rating.
-7. In 7.sql, write a SQL query to list all movies released in 2010 and their ratings, in descending order by rating. For movies with the same rating, order them alphabetically by title.
-   Your query should output a table with two columns, one for the title of each movie and one for the rating of each movie.
-   Movies that do not have ratings should not be included in the result.
-8. In 8.sql, write a SQL query to list the names of all people who starred in Toy Story.
-   Your query should output a table with a single column for the name of each person.
-   You may assume that there is only one movie in the database with the title Toy Story.
-9. In 9.sql, write a SQL query to list the names of all people who starred in a movie released in 2004, ordered by birth year.
-   Your query should output a table with a single column for the name of each person.
-   People with the same birth year may be listed in any order.
-   No need to worry about people who have no birth year listed, so long as those who do have a birth year are listed in order.
-   If a person appeared in more than one movie in 2004, they should only appear in your results once.
-10. In 10.sql, write a SQL query to list the names of all people who have directed a movie that received a rating of at least 9.0.
-    Your query should output a table with a single column for the name of each person.
-    If a person directed more than one movie that received a rating of at least 9.0, they should only appear in your results once.
-11. In 11.sql, write a SQL query to list the titles of the five highest rated movies (in order) that Chadwick Boseman starred in, starting with the highest rated.
-    Your query should output a table with a single column for the title of each movie.
-    You may assume that there is only one person in the database with the name Chadwick Boseman.
-12. In 12.sql, write a SQL query to list the titles of all movies in which both Bradley Cooper and Jennifer Lawrence starred.
-    Your query should output a table with a single column for the title of each movie.
-    You may assume that there is only one person in the database with the name Bradley Cooper.
-    You may assume that there is only one person in the database with the name Jennifer Lawrence.
-13. In 13.sql, write a SQL query to list the names of all people who starred in a movie in which Kevin Bacon also starred.
-    Your query should output a table with a single column for the name of each person.
-    There may be multiple people named Kevin Bacon in the database. Be sure to only select the Kevin Bacon born in 1958.
-    Kevin Bacon himself should not be included in the resulting list.
+3. In 3.sql, write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order. (1 column and 88,918 rows.)
+   - Your query should output a table with a single column for the title of each movie.
+   - Movies released in 2018 should be included, as should movies with release dates in the future.
+4. In 4.sql, write a SQL query to determine the number of movies with an IMDb rating of 10.0. (1 column and 1 row - 132)
+   - Your query should output a table with a single column and a single row (not counting the header) containing the number of movies with a 10.0 rating.
+5. In 5.sql, write a SQL query to list the titles and release years of all Harry Potter movies, in chronological order. (2 columns and 12 rows.)
+   - Your query should output a table with two columns, one for the title of each movie and one for the release year of each movie.
+   - You may assume that the title of all Harry Potter movies will begin with the words “Harry Potter”, and that if a movie title begins with the words “Harry Potter”, it is a Harry Potter movie.
+6. In 6.sql, write a SQL query to determine the average rating of all movies released in 2012. (1 column and 1 row - 6.29787154592979)
+   - Your query should output a table with a single column and a single row (not counting the header) containing the average rating.
+7. In 7.sql, write a SQL query to list all movies released in 2010 and their ratings, in descending order by rating. For movies with the same rating, order them alphabetically by title. (2 columns and 7,085 rows.)
+   - Your query should output a table with two columns, one for the title of each movie and one for the rating of each movie.
+   - Movies that do not have ratings should not be included in the result.
+8. In 8.sql, write a SQL query to list the names of all people who starred in Toy Story. (1 column and 4 rows.)
+   - Your query should output a table with a single column for the name of each person.
+   - You may assume that there is only one movie in the database with the title Toy Story.
+9. In 9.sql, write a SQL query to list the names of all people who starred in a movie released in 2004, ordered by birth year. (1 column and 18,946 rows.)
+   - Your query should output a table with a single column for the name of each person.
+   - People with the same birth year may be listed in any order.
+   - No need to worry about people who have no birth year listed, so long as those who do have a birth year are listed in order.
+   - If a person appeared in more than one movie in 2004, they should only appear in your results once.
+10. In 10.sql, write a SQL query to list the names of all people who have directed a movie that received a rating of at least 9.0. (1 column and 3,392 rows.)
+    - Your query should output a table with a single column for the name of each person.
+    - If a person directed more than one movie that received a rating of at least 9.0, they should only appear in your results once.
+11. In 11.sql, write a SQL query to list the titles of the five highest rated movies (in order) that Chadwick Boseman starred in, starting with the highest rated. (1 column and 5 rows.)
+    - Your query should output a table with a single column for the title of each movie.
+    - You may assume that there is only one person in the database with the name Chadwick Boseman.
+12. In 12.sql, write a SQL query to list the titles of all movies in which both Bradley Cooper and Jennifer Lawrence starred. (1 column and 4 rows.)
+    - Your query should output a table with a single column for the title of each movie.
+    - You may assume that there is only one person in the database with the name Bradley Cooper.
+    - You may assume that there is only one person in the database with the name Jennifer Lawrence.
+13. In 13.sql, write a SQL query to list the names of all people who starred in a movie in which Kevin Bacon also starred. (1 column and 182 rows.)
+    - Your query should output a table with a single column for the name of each person.
+    - There may be multiple people named Kevin Bacon in the database. Be sure to only select the Kevin Bacon born in 1958.
+    - Kevin Bacon himself should not be included in the resulting list.
 
 ### Built With
 
@@ -75,7 +75,7 @@ cat n.sql | sqlite3 movies.db
 
 <h1 align="center">Solution</h1>
 
-1. In 1.sql, write a SQL query to list the titles of all movies released in 2008. (1 column and 10,050 rows.)
+1.
 
 ```sql
 SELECT title
@@ -83,7 +83,7 @@ SELECT title
  WHERE year = 2008
 ```
 
-2. In 2.sql, write a SQL query to determine the birth year of Emma Stone. (1 column and 1 row - 1988)
+2.
 
 ```sql
    SELECT birth
@@ -92,7 +92,7 @@ SELECT title
     LIMIT 10
 ```
 
-3. In 3.sql, write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order. (1 column and 88,918 rows.)
+3.
 
 ```sql
    SELECT title
@@ -101,7 +101,7 @@ SELECT title
  ORDER BY title
 ```
 
-4. In 4.sql, write a SQL query to determine the number of movies with an IMDb rating of 10.0 (1 column and 1 row - 132)
+4.
 
 ```sql
    SELECT count(*) as rating
@@ -109,7 +109,7 @@ SELECT title
     WHERE rating = 10.0
 ```
 
-5. In 5.sql, write a SQL query to list the titles and release years of all Harry Potter movies, in chronological order. (2 columns and 12 rows.)
+5.
 
 ```sql
    SELECT title,
@@ -119,7 +119,7 @@ SELECT title
  ORDER BY year
 ```
 
-6. In 6.sql, write a SQL query to determine the average rating of all movies released in 2012. (1 column and 1 row - 6.29787154592979)
+6.
 
 ```sql
    SELECT AVG(rating) as average
@@ -131,7 +131,7 @@ SELECT title
           )
 ```
 
-7. In 7.sql, write a SQL query to list all movies released in 2010 and their ratings, in descending order by rating. For movies with the same rating, order them alphabetically by title. (2 columns and 7,085 rows.)
+7.
 
 ```sql
    SELECT movies.title,
@@ -144,7 +144,7 @@ SELECT title
           movies.title
 ```
 
-8. In 8.sql, write a SQL query to list the names of all people who starred in Toy Story (1 column and 4 rows.)
+8.
 
 ```sql
    SELECT name
@@ -160,7 +160,7 @@ SELECT title
           )
 ```
 
-9. In 9.sql, write a SQL query to list the names of all people who starred in a movie released in 2004, ordered by birth year. (1 column and 18,946 rows.)
+9.
 
 ```sql
    SELECT name
@@ -177,7 +177,7 @@ SELECT title
  ORDER BY birth
 ```
 
-10. In 10.sql, write a SQL query to list the names of all people who have directed a movie that received a rating of at least 9.0. (1 column and 3,392 rows.)
+10.
 
 ```sql
    SELECT name
@@ -194,7 +194,7 @@ SELECT title
           )
 ```
 
-11. In 11.sql, write a SQL query to list the titles of the five highest rated movies (in order) that Chadwick Boseman starred in, starting with the highest rated. (1 column and 5 rows.)
+11.
 
 ```sql
    SELECT title
@@ -216,7 +216,7 @@ SELECT title
      JOIN movies ON b.movie_id = movies.id;
 ```
 
-12. In 12.sql, write a SQL query to list the titles of all movies in which both Bradley Cooper and Jennifer Lawrence starred (1 column and 4 rows.)
+12.
 
 ```sql
    SELECT title
@@ -235,7 +235,7 @@ SELECT title
           )
 ```
 
-13. In 13.sql, write a SQL query to list the names of all people who starred in a movie in which Kevin Bacon also starred. (1 column and 182 rows.)
+13.
 
 ```sql
    SELECT name
