@@ -168,9 +168,8 @@ SELECT count(*) as rating
  ORDER BY birth
 ```
 
-10.
-
 ```sql
+-- 10
    SELECT name
      FROM people
     WHERE id IN (
@@ -185,9 +184,8 @@ SELECT count(*) as rating
           )
 ```
 
-11.
-
 ```sql
+-- 11
    SELECT title
      FROM (
              SELECT movie_id
@@ -207,9 +205,8 @@ SELECT count(*) as rating
      JOIN movies ON b.movie_id = movies.id;
 ```
 
-12.
-
 ```sql
+-- 12
    SELECT title
      FROM movies
     WHERE id IN (
@@ -226,9 +223,8 @@ SELECT count(*) as rating
           )
 ```
 
-13.
-
 ```sql
+-- 13
    SELECT name
      FROM people
     WHERE id IN (
