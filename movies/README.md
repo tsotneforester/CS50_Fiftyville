@@ -75,9 +75,8 @@ cat n.sql | sqlite3 movies.db
 
 <h1 align="center">Solution</h1>
 
-1.
-
 ```sql
+-- 1
 SELECT title
   FROM movies
  WHERE year = 2008
@@ -86,6 +85,7 @@ SELECT title
 2.
 
 ```sql
+   -- 2
    SELECT birth
      FROM people
     WHERE name = "Emma Stone"
